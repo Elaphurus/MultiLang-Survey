@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package test;
+
+import "google/protobuf/empty.proto";
+
+service Cmod {
+  rpc NullFunc (google.protobuf.Empty) returns (google.protobuf.Empty) {}
+  rpc GetTime (google.protobuf.Empty) returns (TimeReply) {}
+}
+
+message TimeReply {
+  int64 time = 1;
+}

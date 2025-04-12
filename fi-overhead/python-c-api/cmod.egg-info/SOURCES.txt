@@ -1,0 +1,7 @@
+pycmod.c
+setup.py
+../clib.c
+cmod.egg-info/PKG-INFO
+cmod.egg-info/SOURCES.txt
+cmod.egg-info/dependency_links.txt
+cmod.egg-info/top_level.txt
